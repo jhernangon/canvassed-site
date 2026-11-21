@@ -1,0 +1,32 @@
+@font-face{font-display:swap;font-family:Fraunces;font-weight:600;src:url(fonts/fraunces-600.ttf)}
+@font-face{font-display:swap;font-family:Fraunces;font-style:italic;font-weight:400;src:url(fonts/fraunces-400-italic.ttf)}
+@font-face{font-display:swap;font-family:Inter;font-weight:400;src:url(fonts/inter-400.ttf)}
+@font-face{font-display:swap;font-family:Inter;font-weight:500;src:url(fonts/inter-500.ttf)}
+@font-face{font-display:swap;font-family:Inter;font-weight:600;src:url(fonts/inter-600.ttf)}
+:root{color-scheme:light}
+*{box-sizing:border-box}
+html{background:#F3F1EC}
+body{margin:0;background:#F3F1EC;color:#1A1A1A;font-family:Inter,system-ui,sans-serif;font-weight:400;font-size:14px;line-height:21px;-webkit-text-size-adjust:100%}
+main{max-width:640px;margin:0 auto;padding:48px 20px 48px}
+nav{display:flex;flex-wrap:wrap;gap:12px 16px;margin-bottom:48px;font-family:Inter,sans-serif;font-weight:600;font-size:12px;line-height:16px;}
+nav a{color:#5E5B55;text-decoration:none}
+nav a[aria-current]{color:#1A1A1A}
+.kicker{margin:0 0 8px;color:#B8321C;font-weight:600;font-size:12px;line-height:16px;text-transform:uppercase;letter-spacing:0.08em}
+h1{margin:0;font-family:Fraunces,Georgia,serif;font-weight:600;font-size:30px;line-height:32px;letter-spacing:-0.3px;}
+.updated{margin:8px 0 36px;color:#5E5B55;font-size:13px;line-height:18px;}
+h2{display:flex;gap:12px;align-items:baseline;margin:36px 0 10px;font-family:Fraunces,Georgia,serif;font-weight:600;font-size:19px;line-height:22px;}
+h2 .number{min-width:16px;color:#B8321C;font-family:Inter,sans-serif;font-weight:600;font-size:12px;line-height:16px;}
+p,li{margin:0 0 12px}
+ul,ol{margin:0 0 12px;padding-left:24px}
+li{padding-left:4px}
+li::marker{color:#5E5B55}
+strong{font-weight:600}
+em{font-family:Fraunces,Georgia,serif;font-style:italic;color:#5E5B55}
+a{color:#B8321C;text-underline-offset:2px}
+.credits h3{margin:36px 0 8px;font-family:Fraunces,Georgia,serif;font-weight:600;font-size:17px;line-height:22px;}
+.credits ol{list-style:none;padding:0}
+.credits li{padding:10px 0;margin:0;border-top:1px solid #ECE8E0}
+.credits .work{font-family:Fraunces,Georgia,serif;font-style:italic;color:#1A1A1A}
+.credits .meta{display:block;color:#5E5B55;font-size:13px;line-height:18px;}
+footer{margin-top:60px;padding-top:12px;border-top:1px solid #1A1A1A;color:#5E5B55;font-size:13px;line-height:18px;}
+footer p{margin:0 0 4px}
